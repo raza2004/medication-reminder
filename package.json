@@ -1,0 +1,35 @@
+{
+  "name": "medication-reminder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "test-audio": "node localTester.js ./test_audio.mp3",
+    "test-wav": "node localTester.js ./test_audio.wav"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@deepgram/sdk": "^3.11.3",
+    "audio-decode": "^2.2.2",
+    "axios": "^1.8.4",
+    "concat-stream": "^2.0.0",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "express-ws": "^5.0.2",
+    "ffmpeg-static": "^5.2.0",
+    "fluent-ffmpeg": "^2.1.3",
+    "stream": "^0.0.3",
+    "twilio": "^5.5.1",
+    "wav": "^1.0.2",
+    "ws": "^8.18.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nock": "^14.0.2",
+    "nodemon": "^3.1.9"
+  }
+}
